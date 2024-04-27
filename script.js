@@ -79,7 +79,7 @@ fetch('https://jsonplaceholder.typicode.com/todos/1').then(response => {
     console.log('Error', err)
 });
 
-//Async Await
+//Async Await (Optional)
 
 const getTodos3 = async () => {
     const response = await fetch('https://jsonplaceholder.typicode.com/todos/1');
